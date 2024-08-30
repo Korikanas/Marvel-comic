@@ -1,0 +1,79 @@
+.carousel-item{
+    color: white;
+    height: 700px;
+    padding: 5px;
+}
+/*.card-group .card:hover {
+    transform: scale(1.2, 1.2);
+  }
+  
+  .card-group:hover > .card:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+  }*/
+.card{
+    padding: 9px;
+}
+
+.card-group{
+    align-items: center;
+
+}
+.dropdown-menu{
+  width: 550%;
+ 
+}
+.navbar a { 
+    padding: 14px 20px; 
+    text-decoration: none; 
+    color: white; 
+  }
+.navbar a:hover {
+   background-color: #e42f2f;
+    color: rgb(255, 255, 255);
+   }
+
+
+
+   .partners {
+    background-color: rgb(29, 28, 28);
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.partners h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.partners-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partner-description {
+    max-width: 60%;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color:  rgb(29, 28, 28);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .card-text{
+        display:none;
+    }
+    .card{
+        width: 50px;
+    }
+
+}
+
